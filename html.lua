@@ -123,7 +123,6 @@ snippets.add {
 <p>
   ${2}
 </p>
-
 <br>
 ]]
 }

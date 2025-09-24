@@ -74,3 +74,49 @@ Terminal=false
 Categories=Education;Languages;Java;
 ]]
 }
+
+-- echo: pretty logs
+-- info
+snippets.add {
+    trigger  = 'snpt-echo-info',
+    files    = '%.sh$',
+    info     = '...',
+    desc     = '...',
+    format   = 'lsp',
+    template = [[
+echo -e "\e[32m[INFO]\e[0m: $1"
+]]
+}
+-- warning
+snippets.add {
+    trigger  = 'snpt-echo-warning',
+    files    = '%.sh$',
+    info     = '...',
+    desc     = '...',
+    format   = 'lsp',
+    template = [[
+echo -e "\e[33m[WARNING]\e[0m: $1"
+]]
+}
+-- error
+snippets.add {
+    trigger  = 'snpt-echo-error',
+    files    = '%.sh$',
+    info     = '...',
+    desc     = '...',
+    format   = 'lsp',
+    template = [[
+echo -e "\e[31m[ERROR]\e[0m: $1"
+]]
+}
+-- debug
+snippets.add {
+    trigger  = 'snpt-echo-debug',
+    files    = '%.sh$',
+    info     = '...',
+    desc     = '...',
+    format   = 'lsp',
+    template = [[
+echo -e "\e[36m[DEBUG]\e[0m: $1"
+]]
+}
