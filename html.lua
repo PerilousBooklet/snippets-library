@@ -3,7 +3,7 @@ local snippets = require 'plugins.snippets'
 -- Base: generic
 snippets.add {
     trigger  = 'snpt-base',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -30,7 +30,7 @@ snippets.add {
 -- Base: exercise
 snippets.add {
     trigger  = 'snpt-base-exercise',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -64,7 +64,7 @@ snippets.add {
 -- Base: blog article
 snippets.add {
     trigger  = 'snpt-blog-base-article',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -113,7 +113,7 @@ snippets.add {
 -- Element: blog post section
 snippets.add {
     trigger  = 'snpt-blog-section',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -130,7 +130,7 @@ snippets.add {
 -- Element: tag
 snippets.add {
     trigger  = 'snpt-blog-tag',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -147,7 +147,7 @@ snippets.add {
 -- Element: audio player
 snippets.add {
     trigger  = 'snpt-blog-audio',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -159,7 +159,7 @@ snippets.add {
 -- Element: video player
 snippets.add {
     trigger  = 'snpt-blog-video',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -171,7 +171,7 @@ snippets.add {
 -- Element: image
 snippets.add {
     trigger  = 'snpt-blog-image',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -183,7 +183,7 @@ snippets.add {
 -- Element: code
 snippets.add {
     trigger  = 'snpt-blog-codeblock',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -202,7 +202,7 @@ snippets.add {
 -- Element: skill
 snippets.add {
     trigger  = 'snpt-blog-skill',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -214,7 +214,7 @@ snippets.add {
 -- Element: project
 snippets.add {
     trigger  = 'snpt-blog-project',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
@@ -226,7 +226,7 @@ snippets.add {
 -- Element: project page
 snippets.add {
     trigger  = 'snpt-blog-base-projectpage',
-    files    = '%.html$',
+    files    = { '%.html$', '%.jsp$' },
     info     = '...',
     desc     = '...',
     format   = 'lsp',
